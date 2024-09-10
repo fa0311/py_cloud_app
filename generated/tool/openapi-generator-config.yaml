@@ -1,0 +1,4 @@
+inputSpec: http://localhost:8000/openapi.json
+outputDir: .
+
+pubName: generated
