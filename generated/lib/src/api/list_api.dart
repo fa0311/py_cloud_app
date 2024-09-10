@@ -4,13 +4,11 @@
 
 import 'dart:async';
 
-import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
 
 import 'package:generated/src/api_util.dart';
 import 'package:generated/src/model/file_response.dart';
-import 'package:generated/src/model/http_validation_error.dart';
 
 class ListApi {
   final Dio _dio;

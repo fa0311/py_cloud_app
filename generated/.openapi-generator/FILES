@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 README.md
 analysis_options.yaml
 doc/CopyApi.md
@@ -48,20 +47,3 @@ lib/src/model/validation_error.dart
 lib/src/model/validation_error_loc_inner.dart
 lib/src/serializers.dart
 pubspec.yaml
-test/copy_api_test.dart
-test/delete_api_test.dart
-test/directory_response_model_test.dart
-test/download_api_test.dart
-test/file_model_test.dart
-test/file_response_child_inner_test.dart
-test/file_response_model_test.dart
-test/file_response_test.dart
-test/http_validation_error_test.dart
-test/list_api_test.dart
-test/metadata_model_test.dart
-test/mkdir_api_test.dart
-test/move_api_test.dart
-test/response_status_test.dart
-test/upload_api_test.dart
-test/validation_error_loc_inner_test.dart
-test/validation_error_test.dart

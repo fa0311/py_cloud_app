@@ -3,10 +3,8 @@
 //
 
 // ignore_for_file: unused_element
-import 'package:generated/src/model/file_model.dart';
 import 'package:generated/src/model/directory_response_model.dart';
 import 'package:generated/src/model/file_response_model.dart';
-import 'package:generated/src/model/metadata_model.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:one_of/any_of.dart';
