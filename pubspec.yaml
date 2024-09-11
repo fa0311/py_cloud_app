@@ -6,6 +6,8 @@ version: 1.0.0+1
 environment:
   sdk: ^3.5.2
 dependencies:
+  auto_route: ^9.2.2
+  built_value: ^8.9.2
   cupertino_icons: ^1.0.8
   dio: ^5.7.0
   flutter:
@@ -14,9 +16,13 @@ dependencies:
   generated:
     path: generated
   hooks_riverpod: ^2.5.2
+  one_of: ^1.5.0
+  path: ^1.9.0
   riverpod_annotation: ^2.3.5
+  video_player: ^2.9.1
 
 dev_dependencies:
+  auto_route_generator: ^9.0.0
   build_runner: ^2.4.12
   custom_lint: ^0.6.7
   flutter_lints: ^4.0.0

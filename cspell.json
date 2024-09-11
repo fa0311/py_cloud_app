@@ -5,5 +5,7 @@
   "import": [
     "@cspell/dict-dart/cspell-ext.json",
     "@cspell/dict-flutter/cspell-ext.json"
-  ]
+  ],
+  "ignorePaths": ["*.*.dart", "generated/**", "pubspec.lock", "packages/**"],
+  "words": ["canonicalize"]
 }

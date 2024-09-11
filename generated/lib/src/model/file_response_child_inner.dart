@@ -17,6 +17,7 @@ part 'file_response_child_inner.g.dart';
 /// * [lastUpdate]
 /// * [size]
 /// * [file]
+/// * [count]
 /// * [metadata]
 @BuiltValue()
 abstract class FileResponseChildInner

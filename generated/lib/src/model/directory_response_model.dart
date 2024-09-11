@@ -15,6 +15,7 @@ part 'directory_response_model.g.dart';
 /// * [lastUpdate]
 /// * [size]
 /// * [file]
+/// * [count]
 @BuiltValue()
 abstract class DirectoryResponseModel
     implements Built<DirectoryResponseModel, DirectoryResponseModelBuilder> {
@@ -26,6 +27,9 @@ abstract class DirectoryResponseModel
 
   @BuiltValueField(wireName: r'file')
   FileModel get file;
+
+  @BuiltValueField(wireName: r'count')
+  int get count;
 
   DirectoryResponseModel._();
 
@@ -72,6 +76,11 @@ class _$DirectoryResponseModelSerializer
       object.file,
       specifiedType: const FullType(FileModel),
     );
+    yield r'count';
+    yield serializers.serialize(
+      object.count,
+      specifiedType: const FullType(int),
+    );
   }
 
   @override
@@ -117,6 +126,13 @@ class _$DirectoryResponseModelSerializer
             specifiedType: const FullType(FileModel),
           ) as FileModel;
           result.file.replace(valueDes);
+          break;
+        case r'count':
+          final valueDes = serializers.deserialize(
+            value,
+            specifiedType: const FullType(int),
+          ) as int;
+          result.count = valueDes;
           break;
         default:
           unhandled.add(key);
